@@ -1,7 +1,10 @@
 import Navbar from 'app/components/Navbar';
 import Hero from 'app/components/Hero';
-import Features from 'app/components/Features';
-import CTA from 'app/components/CTA'; // <-- Add this line
+//import Planning from 'app/components/Planning';
+import ProblemSolution from 'app/components/ProblemSolution';
+import HowItWorks from 'app/components/HowItWorks';
+import QA from 'app/components/QA'; // <-- Add this import
+import CTA from 'app/components/CTA';
 import CustomFooter from 'app/components/CustomFooter';
 
 export default function Home() {
@@ -9,11 +12,13 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <Features />
-        {/* We'll remove the <h1>Hello CONTAPP!</h1> from here eventually, but let's keep it for now */}
+      <main className="flex min-h-screen flex-col">
+       
+        <ProblemSolution />
+        <HowItWorks />
+        <QA /> {/* <-- Add the new FAQ section */}
       </main>
-      <CTA /> {/* <-- Add our CTA component here */}
+      <CTA />
       <CustomFooter />
     </>
   );

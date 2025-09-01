@@ -1,18 +1,15 @@
 import Navbar from 'app/components/Navbar';
 import CustomFooter from 'app/components/CustomFooter';
-import Team from 'app/components/Team';
-import React from 'react';
+import Planning from 'app/components/Planning';
 
-const AboutPage = () => {
+export default function FeaturesPage() {
   return (
     <>
       <Navbar />
       <main className="min-h-screen">
-        <Team /> {/* Team component now starts right after Navbar */}
+        <Planning /> {/* Pricing component now starts right after Navbar */}
       </main>
       <CustomFooter />
     </>
   );
-};
-
-export default AboutPage;
+}
