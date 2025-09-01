@@ -22,6 +22,13 @@ const Navbar = () => {
         {/* Desktop Navigation Links */}
         <div className="hidden md:flex space-x-6 items-center">
           <Link
+            href="/"
+            className="group relative text-sm font-semibold uppercase tracking-wide transition-colors duration-300 hover:text-white"
+          >
+            Home
+            <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+          </Link>
+          <Link
             href="/Planning"
             className="group relative text-sm font-semibold uppercase tracking-wide transition-colors duration-300 hover:text-white"
           >
@@ -58,6 +65,13 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-blue-800">
           <div className="container mx-auto px-6 py-4 flex flex-col space-y-4">
+            <Link
+              href="/"
+              className="text-sm font-semibold uppercase tracking-wide py-2 px-4 hover:bg-blue-700 rounded-md transition-colors duration-300"
+              onClick={() => setIsOpen(false)}
+            >
+              Home
+            </Link>
             <Link
               href="/Planning"
               className="text-sm font-semibold uppercase tracking-wide py-2 px-4 hover:bg-blue-700 rounded-md transition-colors duration-300"
