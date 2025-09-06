@@ -11,16 +11,16 @@ const QA = () => {
 
   const faqs = [
     {
-      question: "What is CONTAPP?",
-      answer: "CONTAPP is a next-generation contact management app that transforms your phonebook into a smart, contextual, and collaborative business tool. It helps you organize calls, remember contact history, manage relationships, and improve networking efficiency."
+      question: "What is ContApp?",
+      answer: "ContApp is a next-generation contact management app that transforms your phonebook into a smart, contextual, and collaborative business tool. It helps you organize calls, remember contact history, manage relationships, and improve networking efficiency."
     },
     {
-      question: "Who is CONTAPP designed for?",
-      answer: "CONTAPP is built for business fellows, entrepreneurs, consultants, and teams who frequently manage client, vendor, and networking relationships. It's ideal for professionals who need more than just a basic phonebook."
+      question: "Who is ContApp designed for?",
+      answer: "ContApp is built for business fellows, entrepreneurs, consultants, and teams who frequently manage client, vendor, and networking relationships. It's ideal for professionals who need more than just a basic phonebook."
     },
     {
-      question: "How is CONTAPP different from the default phonebook apps?",
-      answer: "Unlike standard contact apps, CONTAPP provides: • Context (tags, notes, timelines) • AI-powered reminders • Voice-to-text transcription • Collaboration features • Integrations with tools like WhatsApp, LinkedIn, and Google Calendar"
+      question: "How is ContApp different from the default phonebook apps?",
+      answer: "Unlike standard contact apps, ContApp provides: • Context (tags, notes, timelines) • AI-powered reminders • Voice-to-text transcription • Collaboration features • Integrations with tools like WhatsApp, LinkedIn, and Google Calendar"
     },
     {
       question: "What features are included in the Free Plan?",
@@ -32,31 +32,31 @@ const QA = () => {
     },
     {
       question: "Can I collaborate with my team?",
-      answer: "Yes. With CONTAPP, you can share contact books with your colleagues. Free users can share with up to 3 team members, while Premium allows unlimited collaboration with notes, tasks, and CRM syncing."
+      answer: "Yes. With ContApp, you can share contact books with your colleagues. Free users can share with up to 3 team members, while Premium allows unlimited collaboration with notes, tasks, and CRM syncing."
     },
     {
-      question: "Does CONTAPP integrate with my existing tools?",
-      answer: "Absolutely. CONTAPP integrates with: • WhatsApp • Telegram • Slack • LinkedIn • Google Calendar • Payment platforms like PayPal, JazzCash, and EasyPaisa"
+      question: "Does ContApp integrate with my existing tools?",
+      answer: "Absolutely. ContApp integrates with: • WhatsApp • Telegram • Slack • LinkedIn • Google Calendar • Payment platforms like PayPal, JazzCash, and EasyPaisa"
     },
     {
-      question: "How does CONTAPP ensure data security?",
-      answer: "Your contacts, notes, and transcriptions are protected with end-to-end encryption. CONTAPP prioritizes business privacy and ensures that only you and your team have access to your data."
+      question: "How does ContApp ensure data security?",
+      answer: "Your contacts, notes, and transcriptions are protected with end-to-end encryption. ContApp prioritizes business privacy and ensures that only you and your team have access to your data."
     },
     {
-      question: "Will CONTAPP slow down if I have thousands of contacts?",
-      answer: "No. CONTAPP is optimized for performance and can handle more than 10,000 contacts with fast search and organization."
+      question: "Will ContApp slow down if I have thousands of contacts?",
+      answer: "No. ContApp is optimized for performance and can handle more than 10,000 contacts with fast search and organization."
     },
     {
-      question: "Can I access CONTAPP offline?",
+      question: "Can I access ContApp offline?",
       answer: "Yes. You can access your stored contacts and notes offline. AI features and cloud-based syncing will require an internet connection."
     },
     {
-      question: "Can CONTAPP replace a CRM?",
-      answer: "While not a full-scale enterprise CRM, CONTAPP offers lightweight CRM-like features such as notes, tasks, reminders, and team sharing. It's a cost-effective and simpler alternative for small businesses and SMEs."
+      question: "Can ContApp replace a CRM?",
+      answer: "While not a full-scale enterprise CRM, ContApp offers lightweight CRM-like features such as notes, tasks, reminders, and team sharing. It's a cost-effective and simpler alternative for small businesses and SMEs."
     },
     {
-      question: "What devices support CONTAPP?",
-      answer: "CONTAPP will be available on iOS and Android smartphones. Future versions will expand to web and desktop platforms."
+      question: "What devices support ContApp?",
+      answer: "ContApp will be available on iOS and Android smartphones. Future versions will expand to web and desktop platforms."
     },
     {
       question: "What is the 'Add Me' card?",
@@ -64,11 +64,11 @@ const QA = () => {
     },
     {
       question: "How do AI-powered reminders work?",
-      answer: "CONTAPP's AI nudges you with smart reminders, such as: • Suggesting follow-ups if you haven't spoken to a client recently • Reminding you to call someone based on their local timezone • Syncing birthdays and events from your Google Calendar"
+      answer: "ContApp's AI nudges you with smart reminders, such as: • Suggesting follow-ups if you haven't spoken to a client recently • Reminding you to call someone based on their local timezone • Syncing birthdays and events from your Google Calendar"
     },
     {
       question: "Is there a free trial for Premium?",
-      answer: "Yes. New users can try CONTAPP Premium free for 14 days before deciding to upgrade."
+      answer: "Yes. New users can try ContApp Premium free for 14 days before deciding to upgrade."
     }
   ];
 
@@ -80,7 +80,7 @@ const QA = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600">
-            Everything you need to know about CONTAPP
+            Everything you need to know about ContApp
           </p>
         </div>
 

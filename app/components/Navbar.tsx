@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo/Brand Name */}
         <Link href="/" className="text-2xl font-bold lg:text-3xl hover:text-blue-200 transition-colors duration-300">
-          CONTAPP
+          ContApp
         </Link>
 
         {/* Desktop Navigation Links */}

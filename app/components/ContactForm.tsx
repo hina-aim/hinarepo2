@@ -69,7 +69,7 @@ const ContactForm = () => {
                 <FaComments className="text-blue-600 text-2xl" />
               </div>
               <h3 className="font-bold text-lg mb-2 text-black">Start a Conversation</h3>
-              <p className="text-gray-600">Let's discuss how CONTAPP can transform your workflow</p>
+              <p className="text-gray-600">Let's discuss how ContApp can transform your workflow</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-md border border-blue-100 text-center">
@@ -88,7 +88,7 @@ const ContactForm = () => {
             <div className="bg-white p-8 rounded-xl shadow-lg border border-blue-100 mb-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Reach Out to Us?</h2>
               <p className="text-gray-700 mb-4">
-                At CONTAPP, we believe that the best products are built through collaboration with our users.
+                At ContApp, we believe that the best products are built through collaboration with our users.
                 Your feedback shapes our roadmap and helps us create a contact management solution that
                 truly meets your needs.
               </p>

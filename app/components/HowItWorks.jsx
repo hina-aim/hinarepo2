@@ -28,7 +28,7 @@ const HowItWorks = () => {
 
                 {/* Process Steps */}
                 <div className="relative">
-                    {/* Flowing connection line */}
+                    
                     <div className="hidden lg:block absolute top-32 left-1/2 w-full max-w-4xl transform -translate-x-1/2">
                         <svg width="100%" height="120" viewBox="0 0 800 120" className="overflow-visible">
                             <defs>

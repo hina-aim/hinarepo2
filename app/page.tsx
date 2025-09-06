@@ -3,7 +3,7 @@ import Hero from 'app/components/Hero';
 //import Planning from 'app/components/Planning';
 import ProblemSolution from 'app/components/ProblemSolution';
 import HowItWorks from 'app/components/HowItWorks';
-import QA from 'app/components/QA'; // <-- Add this import
+import QA from 'app/components/QA'; 
 import CTA from 'app/components/CTA';
 import CustomFooter from 'app/components/CustomFooter';
 
@@ -16,7 +16,7 @@ export default function Home() {
        
         <ProblemSolution />
         <HowItWorks />
-        <QA /> {/* <-- Add the new FAQ section */}
+        <QA /> 
       </main>
       <CTA />
       <CustomFooter />

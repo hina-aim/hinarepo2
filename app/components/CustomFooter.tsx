@@ -15,8 +15,8 @@ const CustomFooter = () => {
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6">
           {/* Brand Section */}
           <div>
-            <h4 className="text-xl font-bold underline underline-offset-4">CONTAPP.com</h4>
-            <p className="text-sm mt-1">Smarter Business Networking with CONTAPP</p>
+            <h4 className="text-xl font-bold underline underline-offset-4">ContApp.com</h4>
+            <p className="text-sm mt-1">Smarter Business Networking with ContApp</p>
             <div className="mt-4 text-sm">
               <p>Contact: visitcontapp.com</p>
               <p>Phone: +447733003930</p>
